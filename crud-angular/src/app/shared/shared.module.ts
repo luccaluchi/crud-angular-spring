@@ -6,11 +6,15 @@ import { CategoryPipePipe } from './pipes/category-pipe.pipe';
 
 
 
+
 @NgModule({
   declarations: [ErrorDialogComponent, CategoryPipePipe],
 
   imports: [CommonModule, AppMaterialModule],
 
-  exports: [ErrorDialogComponent],
+  exports: [
+    ErrorDialogComponent,
+    CategoryPipePipe
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}
