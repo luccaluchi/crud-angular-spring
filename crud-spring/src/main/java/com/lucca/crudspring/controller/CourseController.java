@@ -14,8 +14,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @RequestMapping("/api/courses")
 @AllArgsConstructor  // Ou criar construtor
-public class CourseController {
-
+public class CourseController {          
     
     private final CourseRepository courseRepository;
 
